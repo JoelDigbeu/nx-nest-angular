@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "backend": "apps/backend",
+    "backend-core": "libs/backend/core",
     "backend-group": "libs/backend/group",
     "backend-member": "libs/backend/member"
   }
