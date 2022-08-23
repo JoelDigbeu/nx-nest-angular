@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-fullstack/backend/group": ["libs/backend/group/src/index.ts"],
+      "@nx-fullstack/backend/member": ["libs/backend/member/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
